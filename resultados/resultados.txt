@@ -1,0 +1,32 @@
+1. VERIFICAÇÃO DOS DADOS BRUTOS
+Linhas x colunas: 685 x 14
+Valores ausentes: 0
+Linhas duplicadas: 0
+Bezerro + janela repetidos: 0
+Bezerros por coorte: {1: 14, 2: 14, 3: 16, 4: 16}
+AllDayArea_95 (m²): mín. 31.0 | máx. 46.0
+Áreas fora do intervalo (0, 60] m²: 0
+AllDayArea_95 > AllDayArea_50 em todas as linhas: True
+
+2. ESTATÍSTICA DESCRITIVA (média por bezerro, % da baia)
+Grupo A (3,75 m²/bezerro): n = 32 | média = 66.41% | DP = 4.06 p.p. | mediana = 67.01%
+Grupo B (4,29 m²/bezerro): n = 28 | média = 65.62% | DP = 4.20 p.p. | mediana = 66.63%
+
+3. PRESSUPOSTOS
+Shapiro-Wilk: A p = 0.45 | B p = 0.37
+Levene (descritivo): p = 0.76
+
+4. TESTE PRINCIPAL (confirmatório, previsto no protocolo)
+Welch: t = 0.7345 | gl = 56.38 | p = 0.4657
+Decisão (alfa = 0.05): não rejeitar H0
+Diferença A - B = 0.785 p.p. | IC 95% = [-1.356; 2.927] p.p.
+d de Cohen = 0.191
+
+5. SENSIBILIDADE (Mann-Whitney bilateral)
+U (grupo A) = 494 | p = 0.5002
+
+6. RELEVÂNCIA PRÁTICA E PODER
+Médias em área: A = 39.85 m² | B = 39.37 m²
+Diferença = 0.47 m² | IC 95% = [-0.81; 1.76] m²
+Menor efeito detectável com poder de 80%: d = 0.74 (= 3.04 p.p. = 1.82 m²)
+Poder para o efeito observado (d = 0.19): 11%
